@@ -1,0 +1,32 @@
+html, body, ul, li,strong,p { padding: 0; margin: 0;}
+
+
+li {list-style-type: none;}
+
+.word-menu-list
+{
+  width: inherit;
+  position: absolute;
+	top: 1em;
+	height: auto;
+	background: rgb(210,210,210);
+}
+
+.word-menu-list-item
+{
+  position: relative;
+	width: 100%;
+}
+
+.word-menu-list-item:nth-child(1)
+{
+	background: rgb(89,200,100);
+}
+.word-menu-list-item:nth-child(2)
+{
+	background: rgb(89,200,255);
+}
+.word-menu-list-item:nth-child(3)
+{
+	background: rgb(89,255,255);
+}
